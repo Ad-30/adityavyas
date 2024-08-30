@@ -79,7 +79,7 @@ export const DATA = {
       start: "July 2023",
       end: "Oct 2023",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "(CLIENT PROJECT: MPOWER) Developed and launched a dual-function admin and test module, enabling seamless data tracking and improving test management accuracy by 20%.Engineered an advanced job recommendation algorithm, analyzing 5,000 job listings to improve match accuracy by 30% and streamline the application process.",
     },
 
   ],
