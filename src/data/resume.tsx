@@ -79,7 +79,7 @@ export const DATA = {
       start: "July 2023",
       end: "Oct 2023",
       description:
-        "(CLIENT PROJECT: MPOWER) Developed and launched a dual-function admin and test module, enabling seamless data tracking and improving test management accuracy by 20%.Engineered an advanced job recommendation algorithm, analyzing 5,000 job listings to improve match accuracy by 30% and streamline the application process.",
+        "(CLIENT PROJECT: MPOWER) Developed and launched a dual-function admin and test module, enabling seamless data tracking and improving test management accuracy by 20%. Engineered an advanced job recommendation algorithm, analyzing 5,000 job listings to improve match accuracy by 30% and streamline the application process.",
     },
 
   ],
