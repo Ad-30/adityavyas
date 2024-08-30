@@ -208,8 +208,7 @@ export default function Page() {
                 >
                   with a direct question on linkedin
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll do my best to respond as soon as possible. I’m always happy to engage in meaningful conversations and connect with like-minded professionals.
               </p>
             </div>
           </BlurFade>
