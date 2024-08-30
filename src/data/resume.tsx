@@ -13,15 +13,46 @@ export const DATA = {
     "I’m a final-year Computer Science student passionate about building innovative projects like [ResuShape, a resume creation website](https://resushape.vercel.app), I’m also diving into the world of machine learning and neural networks.",
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Django",
-    "MySQL",
-    "Docker",
-    "C++",
+    {
+      name: "React",
+      logo: "/react.svg"
+    },
+    {
+      name: "NextJS",
+      logo: "/nextjs.svg"
+    },
+    {
+      name: "JavaScript",
+      logo: "/javascript.svg"
+    },
+    {
+      name: "TypeScript",
+      logo: "/typescript.svg"
+    },
+    {
+      name: "NodeJS",
+      logo: "/nodejs.svg"
+    },
+    {
+      name: "Python",
+      logo: "/python.svg"
+    },
+    {
+      name: "Django",
+      logo: "/django.svg"
+    },
+    {
+      name: "MySQL",
+      logo: "/mysql.svg"
+    },
+    {
+      name: "Docker",
+      logo: "/docker.svg"
+    },
+    {
+      name: "C++",
+      logo: "cpp.svg"
+    },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -123,7 +154,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "https://res.cloudinary.com/dvnv7ruzv/image/upload/v1725008362/b2irzovs9gn36gwo5z35.png",
+      image: "/resushape.svg",
       video:
         "",
     },
@@ -153,7 +184,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://res.cloudinary.com/dvnv7ruzv/image/upload/v1725008362/e7aj6ybu4oh7vqcxamqr.png",
+      image: "/syncx.svg",
       video: "",
     },
     {
@@ -182,7 +213,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://res.cloudinary.com/dvnv7ruzv/image/upload/v1725008748/cvivjzvfwzvp3dovsojw.png",
+      image: "/sgpa.svg",
       video: "",
     },
     {

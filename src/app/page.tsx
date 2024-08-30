@@ -8,7 +8,8 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-
+import Image from "next/image";
+import SparklesText from "@/components/magicui/sparkle";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -24,6 +25,7 @@ export default function Page() {
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
+
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
@@ -104,8 +106,21 @@ export default function Page() {
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+              <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge
+                  key={skill.name}
+                  className="bg-white/80 text-black hover:bg-white dark:bg-white p-2 rounded-lg flex items-center group"
+                >
+                  <Image
+                    src={skill.logo}
+                    alt="React Icon"
+                    width="20"
+                    height="20"
+                    className="transition-transform duration-300 group-hover:scale-110"
+                    style={{ width: '24px', height: '24px', marginRight: '8px' }}
+                  />
+                  {skill.name}
+                </Badge>
               </BlurFade>
             ))}
           </div>
